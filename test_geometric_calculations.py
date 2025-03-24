@@ -10,7 +10,7 @@ def test_triangular_surface_area():
 
 def test_circular_surface_area():
     assert circular_surface_area(4) == 50.265472
-    assert circular_surface_area(13) == 530.929048
+    assert circular_surface_area(12) == 452.389248
     assert circular_surface_area(99) == 30790.743192
 
 
