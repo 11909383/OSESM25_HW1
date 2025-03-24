@@ -1,6 +1,6 @@
-from utils import triangular_surface_area
-from utils import circular_surface_area
-from utils import cylinder_volume
+from geometric_calculation import triangular_surface_area
+from geometric_calculation import circular_surface_area
+from geometric_calculation import cylinder_volume
 
 def test_triangular_surface_area():
     assert triangular_surface_area(1, 2) == 1
