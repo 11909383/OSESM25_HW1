@@ -2,6 +2,7 @@ from geometric_calculations import triangular_surface_area
 from geometric_calculations import circular_surface_area
 from geometric_calculations import cylinder_volume
 
+
 def test_triangular_surface_area():
     assert triangular_surface_area(1, 2) == 1
     assert triangular_surface_area(12, 20) == 120
