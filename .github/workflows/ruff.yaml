@@ -9,4 +9,4 @@ jobs:
       with:
 
       
-        args: 'format --check'
+        args: 'format -- --fix'
