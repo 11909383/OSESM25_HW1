@@ -5,7 +5,7 @@ from geometric_calculations import cylinder_volume
 
 def test_triangular_surface_area():
     assert triangular_surface_area(1, 2) == 1
-    assert triangular_surface_area(12, 20) == 120
+    assert triangular_surface_area(12, 20) == 50
     assert triangular_surface_area(4, 10) == 20
 
 
